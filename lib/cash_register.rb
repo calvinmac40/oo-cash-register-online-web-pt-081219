@@ -25,7 +25,7 @@ class CashRegister
       @total -= @discount
       "After the discount, the total comes to $#{@total}."
     else
-      "There if no discount to apply."
+      "There is no discount to apply."
     end
   end
   
