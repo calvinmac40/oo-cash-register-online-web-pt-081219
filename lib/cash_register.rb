@@ -23,3 +23,4 @@ class CashRegister
     @total -= @discount
   end
 end
+end
