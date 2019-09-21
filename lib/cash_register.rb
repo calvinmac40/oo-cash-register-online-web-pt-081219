@@ -21,4 +21,8 @@ class CashRegister
     if discount > 0 
       @discount = (@total * @discount)/100
     @total -= @discount
+    end
   end
+end
+
+  
